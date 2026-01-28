@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multiplication and Division</title>
+</head>
+
+<body>
+    <h1>Multiplication and Division Calculator</h1>
+    <form id="calculator">
+        <label for="num1">Enter the first number:</label>
+        <input type="number" id="num1" required><br><br>
+
+        <label for="num2">Enter the second number:</label>
+        <input type="number" id="num2" required><br><br>
+
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+
+    <h2>Results:</h2>
+    <p id="multiplicationResult"></p>
+    <p id="divisionResult"></p>
+
+    <script>
+        function calculate() {
+            // Get input values
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+
+            // Validate input
+            if (isNaN(num1) || isNaN(num2)) {
+                alert('Please enter valid numbers.');
+                return;
+            }
+
+            // Perform calculations
+            const multiplication = num1 * num2;
+            let division;
+
+            if (num2 !== 0) {
+                division = num1 / num2;
+            } else {
+                division = 'Division by zero is not allowed.';
+            }
+
+            // Display results
+            document.getElementById('multiplicationResult').textContent = `Multiplication: ${multiplication}`;
+            document.getElementById('divisionResult').textContent = `Division: ${division}`;
+        }
+    </script>
+</body>
+
+</html>
