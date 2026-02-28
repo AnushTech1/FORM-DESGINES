@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: black;
+    background-color: #f9fafc;
+    font-family:sans-serif,"poppins";
+    font-size: 16px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.main-container {
+    background-color: #ffffff;
+    border: 2px solid #e0dbd3;
+    border-radius: 20px;
+    width: 452px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 7px 50px 50px 50px;
+}
+
+.main-container2 {
+    background-color: #ffffff;
+    border: 2px solid #e0dbd3;
+    border-radius: 20px;
+    width: 468px;
+    max-width: 100%;
+
+    max-height: 100%;
+    margin: 0 auto;
+    height: 538px;
+    padding: 7px 38px 2px 38px;
+  
+}
+
+label {
+    margin: 0px 0px 0px 9px;
+    font-size: 16px;
+    max-width: 100%;
+    font-family:sans-serif,"poppins";
+}
+
+h1 {
+    margin:24px 12px 40px 8px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#en {
+    color: #787877;
+    margin-top: -18px;
+    margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+#back{
+    color: #a59595;
+
+}
+label.Email {
+    margin: 50px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 320px;
+    max-width: 100%;
+    border-color: bisque;
+}
+
+#Sname {
+    margin-top: 11px;
+}
+
+#Semail {
+    margin-top: 11px;
+}
+
+#password {
+    margin-top: 11px;
+    margin-bottom: 18px;
+}
+
+#Forgot-pass {
+   float: right ;
+    margin-bottom: 10px;
+}
+
+input:hover {
+    border-color: #004696;
+}
+
+#button1 {
+    float: right;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #1ec418;
+    cursor: pointer;
+    
+}
+#email{
+    width: 376px;
+    max-width: 100%;
+    margin-top: 20px;
+    
+}
+#button2 {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #1ec418;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 46px;
+}
+#p {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+
+
+#error {
+    background-color: transparent;
+    color: #3282dd;
+    font-size: 94px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.side-back {
+    background-color: #3282dd;
+    width: 100%;
+    height: 240px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -110px;
+}
